@@ -2,6 +2,8 @@
 django app quickstarter
 
 # DO NOT FORGET TO CHANGE!
+The default app name is `barebone`, so it must be changed before using this app template.
+
 Don't forget to modify the file and directory for your Django application.
 
 1. Please, change the app directory name: `barebone`.
@@ -17,6 +19,10 @@ Don't forget to modify the file and directory for your Django application.
 3. Please, change the package name in [setup.py](setup.py)
 
     [setup.py - django-app-quickstarter](setup.py#L9)
+    
+4. Please, change the package name in [settings.py](sandbox/sandbox/settings.py)
+
+    [sandbox/sandbox/settings.py - barebone](sandbox/sandbox/settings.py#40)
 
 # Coverage, Tox supported
 

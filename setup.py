@@ -12,7 +12,7 @@ setup(
     description='Example django app package for setuptools, tox and coverage',
     long_description=README,
     url='https://www.pincoin.info/',
-    author='John Doe',
+    author='Jonghwa Seo',
     author_email='mairoo' '@' 'pincoin.info',
     license='MIT',
 
@@ -31,6 +31,7 @@ setup(
     ],
 
     install_requires=[
+        'Django',
     ],
     setup_requires=[
     ],
