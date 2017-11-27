@@ -1,4 +1,5 @@
 import os
+from barebone import __name__, __version__
 
 from setuptools import setup, find_packages
 
@@ -6,9 +7,9 @@ with open(os.path.join(os.path.dirname(__file__), 'README.md')) as readme:
     README = readme.read()
 
 setup(
-    name='django-app-quickstarter',
-    version='0.1',
-    packages=find_packages(exclude=['docs', 'tests']),
+    name=__name__,
+    version=__version__,
+    packages=find_packages(exclude=['docs', 'tests', 'sandbox']),
     description='Example django app package for setuptools, tox and coverage',
     long_description=README,
     url='https://www.pincoin.info/',
@@ -38,9 +39,9 @@ setup(
     scripts=[
     ],
 
-    test_suite='runtests.runtests',
     tests_require=[
     ],
+    test_suite='runtests.runtests',
 
     zip_safe=False,
 ),

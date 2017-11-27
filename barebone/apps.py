@@ -4,3 +4,4 @@ from django.utils.translation import ugettext_lazy as _
 
 class BareboneConfig(AppConfig):
     name = _('barebone')
+    verbose_name = _('barebone')

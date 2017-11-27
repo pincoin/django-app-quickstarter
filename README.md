@@ -23,6 +23,10 @@ Don't forget to modify the file and directory for your Django application.
 4. Please, change the package name in [settings.py](sandbox/sandbox/settings.py)
 
     [sandbox/sandbox/settings.py - barebone](sandbox/sandbox/settings.py#L28)
+    
+5. Please, change the version and package name in [barebone/__init__.py](barebone/__init__.py)
+
+    [barebone/__init__.py](barebone/__init__.py)
 
 # Coverage, Tox supported
 
