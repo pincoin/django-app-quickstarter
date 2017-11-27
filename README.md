@@ -36,3 +36,9 @@ python setup.py sdist
 ```
 python setup.py install -f
 ```
+
+# Sandbox Test
+```
+cd sandbox
+python manage.py runserver
+```
